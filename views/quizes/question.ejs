@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz!</title>
+  </head>
+  <body>
+    <h2>Welcome to Quiz!</h2>
+<h3>Preguntas CON respuestas (tanto si las saben como si no)...</h3>
+<br>	
+    <form method="get" action="/quizes/answer">
+	Pregunta: <%= pregunta %> <p>
+	<input type="text" name="respuesta" value="Respoder aquí"/>
+	<input type="submit" value="Enviar">
+	</form>
+
+  </body>
+</html>

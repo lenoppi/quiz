@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz!</title>
+  </head>
+  <body>
+    <h2>Welcome to Quiz!</h2>
+    <h3>Preguntas CON respuestas (tanto si las saben como si no)...</h3>
+<br>	
+	<%= respuesta %> <p>
+
+<% if ( respuesta === "Incorrecto!") {%>
+       <a href="/quizes/question">Vuelva a intentarlo...</a>
+<% } else { %>
+
+       <a href="/quizes/question">Siga jugando...</a>
+<% } %>
+  </body>
+</html>
